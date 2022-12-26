@@ -1,0 +1,166 @@
+.mainDiv{
+    background-image: url('../image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.brand-img{
+  margin-left: 0.5rem;
+  height:3rem;
+  width:4rem;
+}
+.table3 td, .table3 th{
+    color:black;
+}
+/*index*/
+.carousell{
+
+    direction: rtl;
+    padding:2% 7% 0%  5%;
+    opacity: 80%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.carousel-item img{
+    height: 30rem;
+    width: 70%;
+
+
+}
+.con1{
+  margin-top:4rem;
+  padding-bottom:4rem;
+
+  display:grid;
+  gap:3rem;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+
+}
+.buttons{
+  display:grid;
+  justify-items: end;
+}
+.buttons1{
+  display:grid;
+  justify-items: start;
+}
+.buttons button ,.buttons1 button{
+  height:3rem;
+  width:10rem;
+
+}
+.b6{
+  height:3rem;
+  width:10rem;
+}
+/*table*/
+.tablee{
+  color:beige;
+
+}
+/*pay*/
+.form-pay{
+margin-left:35%;
+margin-top: 2%;
+}
+.form-group{
+ display:flex;
+  margin-top: 2rem;
+}
+
+.labell{
+  color: aliceblue;
+  font-size: large;
+  margin-right: 1rem;
+
+}
+.check{
+  color: aliceblue;
+  font-size: large;
+
+}
+.form-check{
+  margin-bottom: 0.5rem;
+}
+.formCheck{
+  display: flex;
+}
+.form2{
+  visibility: hidden;
+}
+.submit1{
+color: aliceblue;
+font-size: large;
+border: 2px solid #007bff;
+}
+.formCheck .form-control{
+width:162px;
+margin-left: -1rem;
+}
+.submit{
+ margin-top: 3rem;
+  width: 25rem;
+}
+.form-group input{
+  width: max-content;
+
+}
+td ,th{
+  color:antiquewhite
+
+}
+.sel{
+  height:40px;
+  width:180px;
+}
+.searchDate{
+  display: flex;
+
+}
+.search_date {
+  position: relative;
+}
+.search_date input{
+  border: none;
+  padding-right: 8px;
+  width: 300px;
+  height: 40px;
+}
+.submitt{
+  position: absolute;
+  padding:0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 40px;
+
+}
+.alert1{
+  position: absolute;
+  top:0;
+  left:45%
+}
+.slider_description{
+    margin-top:20%;
+    direction:ltr;
+    font-family: Cursive;
+    text-shadow:  0 0 3px #FF0000, 0 0 5px #0000FF;
+   font-size:3rem;
+   color:rgb(249, 249, 252);
+   font-weight: revert-layer;
+}
+.slider-des{
+    font-family: Cursive;
+    text-shadow:  0 0 5px #fcf9f9, 0 0 5px #0000FF;
+    font-size:2rem;
+   color:rgb(216, 16, 59);
+   font-weight: revert-layer;
+   text-align:center
+}
+.white-text-with-blue-shadow {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font: 1.5em Georgia, serif;
+  }
